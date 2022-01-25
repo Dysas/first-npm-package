@@ -1,7 +1,11 @@
 name: CI
-on: [push]
+on: 
+  push: 
+    branches: [main]
+  pull_request:
+      branches: '*'  
 jobs:
-  build:
+  quality:
     name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
 
     runs-on: ${{ matrix.os }}
@@ -35,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' }}
     needs: [quality]
-      steps:
+    steps:
       - name: Checkout repo
         uses: actions/checkout@v2
 
