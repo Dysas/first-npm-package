@@ -29,14 +29,6 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "prettier": {
-    "printWidth": 120,
-    "tabWidth": 2,
-    "useTabs": false,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "all"
-  },
   "name": "first-npm-package",
   "author": "AndriusTellq",
   "module": "dist/first-npm-package.esm.js",
