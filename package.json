@@ -32,7 +32,7 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "name": "@akrivickas/first-npm-package",
+  "name": "akrivickas-first-npm-package",
   "author": "AndriusTellq",
   "module": "dist/first-npm-package.esm.js",
   "size-limit": [
