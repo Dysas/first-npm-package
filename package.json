@@ -34,7 +34,7 @@
   },
   "author": "AndriusTellq",
   "module": "dist/first-npm-package.esm.js",
-  "name": "akrivickas@/first-scoped-npm-package",
+  "name": "@akrivickas/first-scoped-npm-package",
   "publishConfig": {
     "access": "public"
   },
